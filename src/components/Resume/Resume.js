@@ -3,17 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
-
 import pdf from "../../Assets/Mitul_Chaudhari_Resume_V3.pdf";
-
 import { AiOutlineDownload } from "react-icons/ai";
-import ReactGA from "react-ga";
 import ResumeContent from "./ResumeContent";
 
 function Resume() {
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
   return (
     <Container fluid className="resume-section">
       <Particle />
