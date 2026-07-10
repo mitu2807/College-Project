@@ -6,6 +6,7 @@ import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
 function About() {
+  console.log("dghddshgf");
   return (
     <Container fluid className="about-section">
       <Particle />
